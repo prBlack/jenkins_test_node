@@ -1,0 +1,27 @@
+{
+  "name": "jenkins_test_node",
+  "version": "1.0.0",
+  "description": "test_ci_cd",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prBlack/jenkins_test_node.git"
+  },
+  "author": "Vladislav Mastenitsa aka pr_Black",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/prBlack/jenkins_test_node/issues"
+  },
+  "homepage": "https://github.com/prBlack/jenkins_test_node#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "jest": "^29.0.1",
+    "supertest": "^6.2.4"
+  }
+}
